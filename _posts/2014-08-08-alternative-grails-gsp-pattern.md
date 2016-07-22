@@ -1,8 +1,9 @@
 ---
 title: An alternative pattern for creating custom Grails GSP tags
-tags:
-  - Grails
-  - GSP
+#tags:
+#  - Grails
+#  - GSP
+
 ---
 
 I've been working with Grails for a while now, and while I like the framework there

@@ -1,9 +1,9 @@
 ---
 title: Abstracting Grails controller logic using closures
-tags:
-  - Grails
-  - Controllers
-  - Closures
+#tags:
+#  - Grails
+#  - Controllers
+#  - Closures
 ---
 
 As I've been working more with Grails I have been finding that in many of my controllers
