@@ -219,7 +219,8 @@ defaults:
       permalink: /posts/:title/
       layout: single
       author_profile: true
-      read_time: true
-      comments: fakse
+      read_time: false
+      comments: false
       share: true
       related: true
+      author: "Michael Baldwin"
