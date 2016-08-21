@@ -10,13 +10,27 @@ header:
 ---
 
 <div>
-  <h2>Latest Post</h2>
+  <h2>Latest Posts</h2>
   <div style="padding-left: 15px;">
-    {% assign post = site.posts.first %}
+    {% assign post = site.posts[0] %}
 
     <h3 style="margin-top:3px;">
       {% if post.title %}
           <a href="{{ url }}{{ post.url }}">{{ post.title }}</a>
+      {% endif %}
+    </h3>
+    <h4 style="margin-top:3px;">
+      {{ post.date | date: '%B %d, %Y' }}
+    </h4>
+
+    {{ post.content | strip_html | truncatewords: 40 }}
+  </div>
+  <div style="padding-left: 15px;margin-top: 30px;">
+    {% assign post = site.posts[1] %}
+
+    <h3 style="margin-top:3px;">
+      {% if post.title %}
+      <a href="{{ url }}{{ post.url }}">{{ post.title }}</a>
       {% endif %}
     </h3>
     <h4 style="margin-top:3px;">
