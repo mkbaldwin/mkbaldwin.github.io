@@ -55,7 +55,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : mkbaldwin21
 facebook:
   username               :
   app_id                 :
@@ -78,7 +78,7 @@ analytics:
 # Site Author
 author:
   name             : "Michael Baldwin"
-  avatar           : "bio-photo.jpg"
+  avatar           : "/images/bio-photo.jpg"
   bio              : "Software Engineer | Geek"
   location         :
   email            :
