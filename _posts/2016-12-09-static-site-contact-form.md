@@ -4,7 +4,7 @@ title: Creating a static site contact form with email notifications using Google
 
 
 If you are like me and use a static site generator for your website/blog
-you gain a lot of nice benefits in terms of security and speed. However, 
+you gain a lot of nice benefits in terms of simpler hosting, security, and performance. However, 
 certain tasks that usually require server-side code require a different
 approach. I recently added a contact form to my website using Google Forms,
 Sheets, and Apps Script to create an embedded contact form with email 
