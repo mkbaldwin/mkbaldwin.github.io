@@ -1,0 +1,53 @@
+---
+layout: single
+title: " "
+author_profile: false
+permalink: /card
+header:
+  overlay_image: images/splash-banner-image.jpg
+  overlay_color: "#5e616c"
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+---
+
+{% if page.author and site.data.authors[page.author] %}
+  {% assign author = site.data.authors[page.author] %}
+{% else %}
+  {% assign author = site.author %}
+{% endif %}
+
+<h2>Hello! Thanks for scanning my card.</h2>
+<p>
+  Here are some quick links to places you can find me around the web.
+</p>
+
+<ul class="card-link-list social-icons">
+  <li>
+    <a href="/contact">
+      <i class="fa fa-fw fa-envelope" aria-hidden="true"></i> Contact
+    </a>
+  </li>
+
+  {% if author.twitter %}
+    <li>
+      <a href="https://twitter.com/{{ author.twitter }}">
+        <i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter
+      </a>
+    </li>
+  {% endif %}
+
+  {% if author.github %}
+    <li>
+      <a href="https://github.com/{{ author.github }}">
+        <i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub
+      </a>
+    </li>
+  {% endif %}
+
+  {% if author.stackoverflow %}
+    <li>
+      <a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}">
+        <i class="fa fa-fw fa-stack-overflow" aria-hidden="true"></i> Stackoverflow
+      </a>
+    </li>
+  {% endif %}
+</ul>

@@ -116,6 +116,7 @@
 }
 
 .author__bio {
+  font-size: 14px !important;
   margin: 0;
 
   @include breakpoint($large) {
