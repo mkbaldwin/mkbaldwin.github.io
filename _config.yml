@@ -5,16 +5,18 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
+minimal_mistakes_skin    : "default" # "air", "contrast", "dark", "dirt", "mint", "sunrise"
+
 # Site Settings
 locale                   : "en"
 title                    : "Michael.codes"
 title_separator          : "-"
-name                     : "Michael Baldwin"
+name                     : "Michael.codes"
 description              : ""
-url                      : ## http://michael.codes # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  :  # the subpath of your site, e.g. "/blog"
-gh_repo                  :
-teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : # the subpath of your site, e.g. "/blog"
+repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -95,7 +97,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
   stackoverflow    : 614418/michael # http://stackoverflow.com/users/123456/username
@@ -175,7 +177,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
