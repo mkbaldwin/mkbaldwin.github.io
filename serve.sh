@@ -1,3 +1,4 @@
 #! /bin/bash
 
-bundle exec jekyll serve
+#For dev mode run and process future dated posts.
+bundle exec jekyll serve --future
