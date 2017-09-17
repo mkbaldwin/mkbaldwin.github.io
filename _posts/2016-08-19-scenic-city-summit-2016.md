@@ -1,8 +1,6 @@
 ---
 title: Scenic City Summit 2016
-#tags:
-#  - Conference
-#  - CodeStock
+categories: Conference ScenicCitySummit
 ---
 
 I've found myself doing a bit of the local conference circuit lately. I recently

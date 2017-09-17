@@ -1,5 +1,6 @@
 ---
 title: Creating a static site contact form with email notifications using Google Forms.
+categories: WebDev StatisSite
 ---
 
 
