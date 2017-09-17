@@ -15,8 +15,7 @@ simplifying the setup of JavaScript projects. Development is also moving
 toward component oriented architectures with frameworks like ReactJS and 
 the new web components standard.
 
-The future is here, its just not evenly distributed.
-- Cory House
+The future is here, its just not evenly distributed. - Cory House
 {: .notice--info} 
 
 [Emily Estes](https://github.com/emily-e/basements-and-beasties) 
@@ -57,8 +56,7 @@ and was a guide for the reluctant leader. David's talks are always both entertai
 and informative. This time he had plenty of stories about his journey to being a leader
 and gave lots of advice for time managers from the perspective of an introvert.
 
-Life is too short to let things stay the way they are.
-- David Neal
+Life is too short to let things stay the way they are. - David Neal
 {: .notice--info} 
 
 The conference has definitely grown a lot from its first year and was a lot of fun. 

@@ -37,8 +37,7 @@ software projects today are large, complex, and usually involve a variety of dif
 technologies. One person can't know everything, but as a team you can have all the knowledge 
 needed to be successful.
 
-I don't want rockstars on my team. I want my team to be rocking it.
-- Jessica Kerr
+I don't want rockstars on my team. I want my team to be rocking it. - Jessica Kerr
 {: .notice--info} 
 
 You can get the slides for her presentation [here](https://t.co/QXbfbBzB6Y).
