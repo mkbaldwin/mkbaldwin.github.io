@@ -1,7 +1,7 @@
 ---
 title: "Scenic City Summit 2017"
 date:  2017-09-16 20:26:00 -0500
-categories: Conference ScenicCitySummit
+categories: Conference
 ---
 
 At the end of June I attended the second annual [Scenic City Summit](https://www.sceniccitysummit.com/)
