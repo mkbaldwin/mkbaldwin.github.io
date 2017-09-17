@@ -1,6 +1,6 @@
 ---
 title: Nexus 5x Boot Loop Adventures
-categories: Android Nexus5x
+categories: Android
 ---
 
 I've had a Google Nexus 5x phone for almost two years. I pre-ordered it as soon
