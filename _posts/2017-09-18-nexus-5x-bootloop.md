@@ -1,6 +1,7 @@
 ---
 title: Nexus 5x Boot Loop Adventures
 categories: Android
+date:  2017-09-18 20:35:00 -0500
 ---
 
 I've had a Google Nexus 5x phone for almost two years. I pre-ordered it as soon
@@ -45,15 +46,16 @@ the article's instructions to flash the new boot image.
 
 After flashing the phone started up immediately... no boot loop!
 
-I've rebooted the phone many times since then and had only one instance of the
-phone crashing during startup. Otherwise the phone seems to function normally.
-Though, I am sure with more intense applications (or games) there would be a
-performance impact.
+Initially this seemed pretty promising. I rebooted the phone many times 
+and only had a few instances of it crashing during start up. I've also
+had it freeze up and reboot mid-use a couple of times. I definitely wouldn't call 
+this a fix, but it is a workaround to make the phone at least semi-functional.
 
-I'm still testing it out before switching my service back to the device to rely
-on it to work. I definitely wouldn't call this a fix, but it is a workaround
-that will hopefully let me use the phone until the next generation of Pixel
-devices are released.
+At this point I still don't have enough confidence in it being reliable enough
+to switch my service back. So, I will probably keep using an older phone
+until Google's new phone announcement. I'm sad to see the old Nexus 5x go, it 
+really was a great phone. Perhaps a Pixel 2, or even the essential phone could 
+be in my future.
 
-This was definitely an interesting learning experience troubleshooting hardware,
-and flashing new software onto a phone!
+Regardless of the outcome, this was definitely an interesting learning experience 
+troubleshooting hardware, and flashing new software onto a phone!
