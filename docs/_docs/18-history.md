@@ -4,7 +4,7 @@ permalink: /docs/history/
 excerpt: "Change log of enhancements and bug fixes made to the theme."
 sidebar:
   nav: docs
-last_modified_at: 2017-12-11T12:39:02-05:00
+last_modified_at: 2018-05-15T14:47:16-04:00
 toc: true
 ---
 
@@ -12,7 +12,128 @@ toc: true
 
 ### Enhancements
 
+* Add support for captioning images in feature row helper via `image_caption` YAML Front Matter. [#1440](https://github.com/mmistakes/minimal-mistakes/issues/1440)
+* Add [Google Custom Search Engine](https://cse.google.com/cse) support. [#1652](https://github.com/mmistakes/minimal-mistakes/issues/1652)
+* Update Font Awesome to version [`5.0.13`](https://github.com/FortAwesome/Font-Awesome/blob/master/CHANGELOG.md)
+* Add "Pets" sample archive page to documentation site. [#1664](https://github.com/mmistakes/minimal-mistakes/pull/1664)
+* Add GitLab social icon brand color. [#1653](https://github.com/mmistakes/minimal-mistakes/issues/1653)
+* Prevent line breaks between FontAwesome icon and text in footer social links. [#1659](https://github.com/mmistakes/minimal-mistakes/issues/1659)
+
+### Bug Fixes
+
+* Fix table of contents missing borders. [#1675](https://github.com/mmistakes/minimal-mistakes/issues/1675)
+* Fix link to "Recipes" sample archive on documentation site. [#1664](https://github.com/mmistakes/minimal-mistakes/pull/1664)
+* Update example Reddit social share interpolation syntax in documentation. [#1656](https://github.com/mmistakes/minimal-mistakes/issues/1656)
+* Fix "Back to Top" links on pages that use [header overlays](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#header-overlay).
+
+## [4.11.2](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.11.2)
+
+### Enhancements
+
+* Update Font Awesome to version `5.0.11`. [#1605](https://github.com/mmistakes/minimal-mistakes/pull/1620)
+* Add Slovak localized UI text strings. [#1613](https://github.com/mmistakes/minimal-mistakes/pull/1613)
+* Add option to anonymize IP addresses of hits sent to Google Analytics. [#1636](https://github.com/mmistakes/minimal-mistakes/pull/1636)
+
+### Bug Fixes
+
+* Use correct text string for "Back to Top" link. [#1595](https://github.com/mmistakes/minimal-mistakes/issues/1595)
+* Add conditionals for showing `reCaptcha.siteKey` and `reCaptcha.secret` in Staticman comments form.
+
+## [4.11.1](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.11.1)
+
+### Enhancements
+
+* Add default `theme` and `remote_theme` values to `_config.yml`.
+* Add new layouts (`posts`, `categories`, `tags`, `collection`, `category`, and `tag`) for easier archive page creation.
+
+### Bug Fixes
+
+* Replace `relative_url` filter with `relative_url` where it makes sense (asset/navigation related paths). [#1588](https://github.com/mmistakes/minimal-mistakes/issues/1588)
+* Fix search excerpts that run together because of implied spaces.
+
+## [4.10.1](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.10.1)
+
+### Enhancements
+
+* Update jQuery to version `3.3.1`. [#1491](https://github.com/mmistakes/minimal-mistakes/issues/1491)
+* Add link to jekyll-algolia's `files_to_exclude` documentation.
+* Update Font Awesome to version [`5.0.8`](https://github.com/FortAwesome/Font-Awesome/blob/master/CHANGELOG.md). [#1561](https://github.com/mmistakes/minimal-mistakes/pull/1561)
+* Activate Algolia search for documentation site. [#1570](https://github.com/mmistakes/minimal-mistakes/issues/1570)
+* Add missing German translations. [#1577](https://github.com/mmistakes/minimal-mistakes/pull/1577)
+* Add support for Google Analytics with global site tag (gtag.js) [#1563](https://github.com/mmistakes/minimal-mistakes/pull/1563)
+
+### Bug Fixes
+
+* Focus Algolia search input after clicking on search toggle.
+
+## [4.10.0](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.10.0)
+
+### Enhancements
+
+* Add support for [Algolia](https://www.algolia.com/) search provider ([see demo](https://mmistakes.github.io/minimal-mistakes-algolia-search/)). [#1416](https://github.com/mmistakes/minimal-mistakes/issues/1416)
+
+## [4.9.1](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.9.1)
+
+### Enhancements
+
+* Simplify year archive Liquid.
+* Add documentation on how to downgrade theme.
+* Improve greedy navigation's layout when JavaScript is disabled.
+* Improve SEO include by grouping similar tags, reducing white-space, and adding `article:modified_time`. [#1456](https://github.com/mmistakes/minimal-mistakes/pull/1456)
+* Minify `assets/js/lunr/lunr.js`.
+* Improve calculation of Greedy navigation's `availableSpace`.
+* Add Danish and Russian translations for new search strings. [#1472](https://github.com/mmistakes/minimal-mistakes/pull/1472) [#1477](https://github.com/mmistakes/minimal-mistakes/pull/1477)
+* Indicate that archive titles are links with an underline.
+* Remove `base_path` include from `/test` pages.
+* Reduce font-size of page meta in list/grid items.
+* Improve feature row styling when used with `archive` layout. [#1484](https://github.com/mmistakes/minimal-mistakes/issues/1484)
+* Improve German translations. [#1511](https://github.com/mmistakes/minimal-mistakes/pull/1511)
+* Update Font Awesome to `5.0.6`. [#1513](https://github.com/mmistakes/minimal-mistakes/pull/1513)
+* Add `wide` variant to single layout. [#1516](https://github.com/mmistakes/minimal-mistakes/pull/1516)
+
+### Bug Fixes
+
+* Allow `author` to accept an object or string. [#289](https://github.com/mmistakes/minimal-mistakes/issues/289)
+* Fix syntax highlighting line number styling inconsistency. [#1467](https://github.com/mmistakes/minimal-mistakes/issues/1467)
+* Fix author sidebar icon colors for dark skins. [#1482](https://github.com/mmistakes/minimal-mistakes/issues/1482)
+* Remove misleading underline hover state on feature row items.
+* Properly escape quotes in `site.social.name` and `site.name`. [#1485](https://github.com/mmistakes/minimal-mistakes/pull/1485)
+* Fix typo in upgrading documentation. [#1487](https://github.com/mmistakes/minimal-mistakes/pull/1487)
+* Fix `border-bottom` for Gist line numbers.
+* Replace `|` with HTML entity when used as title separator. [#760](https://github.com/mmistakes/minimal-mistakes/issues/760)
+
+## [4.9.0](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.9.0)
+
+### Enhancements
+
+* Add `show_overlay_excerpt` for disabling overlay image excerpt text. [#1436](https://github.com/mmistakes/minimal-mistakes/pull/1436)
+* Update remote theme installation instructions in Quick Start Guide. [#1439](https://github.com/mmistakes/minimal-mistakes/pull/1439)
+* Reduce visual weight of code blocks.
+* Add Lunr.js Greek stemmer. [#1445](https://github.com/mmistakes/minimal-mistakes/pull/1445)
+* Update Font Awesome 5 [SVG with JavaScript version](https://fontawesome.com/how-to-use/svg-with-js). [#1446](https://github.com/mmistakes/minimal-mistakes/pull/1446)
+  * Note: if Font Awesome icons were used in the content of posts/pages or custom table of contents, find and replace any icons that have different names between version 4 and 5. Make sure to read the [complete list](https://fontawesome.com/how-to-use/upgrading-from-4#icon-name-changes-full) on Font Awesome's site.
+* Reduce size of Lunr.js search JSON data and introduce `site.search_full_content` flag for limiting size of JSON file. [#1449](https://github.com/mmistakes/minimal-mistakes/pull/1449)
+* Improve syntax highlighting styles. [#1450](https://github.com/mmistakes/minimal-mistakes/pull/1450)
+
+### Bug Fixes
+
+* Fix code block extra white-space when using [Jekyll's highlight tag](https://jekyllrb.com/docs/templates/#code-snippet-highlighting) with `linenos`. [#1437](https://github.com/mmistakes/minimal-mistakes/issues/1437)
+* Round top-right corner of code block icon.
+* Remove Lunr.js trimmer and bring back colons. [#1445](https://github.com/mmistakes/minimal-mistakes/pull/1445)
+* Fix sticky `.sidebar` that overlaps main content when resizing viewport. [#1447](https://github.com/mmistakes/minimal-mistakes/issues/1447)
+
+## [4.8.1](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.8.1)
+
+### Enhancements
+
 * Add linkback functionality to author avatar and name in sidebar via `author.home`. [#1386](https://github.com/mmistakes/minimal-mistakes/pull/1386)
+* Add Japanese localized UI text strings. [#1411](https://github.com/mmistakes/minimal-mistakes/pull/1411)
+* Update Lunr.js to 2.1.5 [#1419](https://github.com/mmistakes/minimal-mistakes/pull/1419)
+
+### Bug Fixes
+
+* Fixed broken link to Staticman's page [#1422](https://github.com/mmistakes/minimal-mistakes/pull/1422)
+* Fix Lunr search to work with number tags. [#1409](https://github.com/mmistakes/minimal-mistakes/issues/1409) [#1419](https://github.com/mmistakes/minimal-mistakes/pull/1419)
 
 ## [4.8.0](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.8.0)
 
@@ -333,7 +454,7 @@ toc: true
 
 ### Enhancements
 
-* Add `!default` values to **_sass/_variables.scss**.
+* Add `!default` values to **\_sass/\_variables.scss**.
 * Collapse sidebar navigation lists on smaller screens. [#607](https://github.com/mmistakes/minimal-mistakes/issues/607)
 
 ### Bug Fixes
@@ -380,12 +501,12 @@ toc: true
 ### Enhancements
 
 * "Gemify" theme ~> `gem "minimal-mistakes-jekyll"`
-* Replace `base_path` include with `absolute_url` filter where possible.
+* Replace `base_path` include with `relative_url` filter where possible.
 * Allow images to be placed in other folders. Remove `/images/` only restriction and encourage placement in `/assets/images/` instead. **Full paths are now required. If upgrading from MM 3.4 add `/images/` before filenames in Front Matter and `_config.yml` variables.**
 * Add [home `layout`](https://github.com/mmistakes/minimal-mistakes/blob/master/_layouts/home.html)
 * Added missing Turkish translations for UI text. [#621](https://github.com/mmistakes/minimal-mistakes/pull/621)
 * Make author avatar optional in sidebar.
-* Update **/_includes/seo.html** for meta description. [#558](https://github.com/mmistakes/minimal-mistakes/pull/558)
+* Update **/\_includes/seo.html** for meta description. [#558](https://github.com/mmistakes/minimal-mistakes/pull/558)
 
 ### Bug Fixes
 
