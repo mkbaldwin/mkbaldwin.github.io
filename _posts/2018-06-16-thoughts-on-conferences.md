@@ -1,7 +1,7 @@
 ---
 title: Thoughts on attending conferences
 categories: Conference 
-date:  2018-06-12 22:45:00 -0500
+date:  2018-06-16 22:45:00 -0500
 ---
 
 Since 2016 I have attended five developer conferences in my area.
