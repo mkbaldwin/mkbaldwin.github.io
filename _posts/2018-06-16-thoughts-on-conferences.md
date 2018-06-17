@@ -65,4 +65,4 @@ I hope this has been interesting or helpful to someone. The most important thing
 and come back feeling like you have gained something from being there.
 
 If you want to read more about the conferences I have attended, [click here](https://michael.codes/categories/#conference)
-to view the summary posts I have written.
+to view the summary posts about them.
