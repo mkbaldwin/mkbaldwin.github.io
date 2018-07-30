@@ -108,7 +108,7 @@ class TodoController {
 }
 ```
 
-## Initial thoughts
+## Conclusion
 
 This quick overview just barely scratches the surface of the functionality available already in Micronaut. The 
 [user guide](https://docs.micronaut.io/snapshot/guide/index.html) is comprehensive and provides a lot of great information
