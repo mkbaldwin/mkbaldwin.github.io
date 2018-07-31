@@ -39,8 +39,9 @@ You can also compile the application and run the main method in the `Application
 
 ## Controllers
 
-Much like in Spring Framework controllers are defined declaratively  using the `@Controller` annotation. The classpath
-will be scanned for annotations and any annotated classes. 
+Much like in Spring Framework controllers are defined declaratively using the `@Controller` annotation. 
+Classes that are annotated with `@Controller` or other annotations are automatically detected.
+Unlike other frameworks, like Spring, that rely on runtime classpath scanning, this is done at compile time.
 
 A simple controller looks as follows:
 
