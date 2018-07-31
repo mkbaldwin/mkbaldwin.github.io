@@ -41,7 +41,7 @@ You can also compile the application and run the main method in the `Application
 
 Much like in Spring Framework controllers are defined declaratively using the `@Controller` annotation. 
 Classes that are annotated with `@Controller` or other annotations are automatically detected.
-Unlike other frameworks, like Spring, that rely on runtime classpath scanning, this is done at compile time.
+Unlike other frameworks, like Spring, that rely on runtime classpath scanning this is done at compile time.
 
 A simple controller looks as follows:
 
@@ -117,3 +117,8 @@ for all of the functionality. Developers coming to Micronaut from Spring Framewo
 
 Considering that the framework hasn't reached an official 1.0 release yet, it already seems very powerful. I look forward
 to seeing how it continues to evolve and grow.
+
+<small>
+**Updated 2018-07-30**: Thanks to [Jim Kleeh](https://twitter.com/Schlogen) for pointing out on Twitter that annotations
+are not found via classpath scanning, but instead this happens at compile time.
+</small>
