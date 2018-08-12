@@ -1,7 +1,12 @@
 ---
+layout: single
 title: "Micronaut: A five-minute introduction."
-categories: Java Micronaut Groovy
-date:  2018-07-29 20:40:00 -0500
+categories:
+  - Java
+  - Micronaut
+  - Groovy
+date: 2018-07-30T20:40:00-0500
+last_modified_at: 2018-07-30T20:40:00-0500
 ---
 
 [Micronaut](http://micronaut.io) is a new open source Java/JVM framework for creating microservice applications. 

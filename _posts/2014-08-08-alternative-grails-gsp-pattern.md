@@ -1,6 +1,8 @@
 ---
 title: An alternative pattern for creating custom Grails GSP tags
-categories: Grails
+categories: 
+  - Grails
+  - Groovy
 ---
 
 I've been working with Grails for a while now, and while I like the framework there

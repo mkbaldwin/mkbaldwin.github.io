@@ -1,6 +1,8 @@
 ---
 title: Abstracting Grails controller logic using closures
-categories: Grails Groovy
+categories: 
+  - Grails
+  - Groovy
 ---
 
 As I've been working more with Grails I have been finding that in many of my controllers

@@ -1,7 +1,8 @@
 ---
 title: Nexus 5x Boot Loop Adventures
-categories: Android
-date:  2017-09-18 20:35:00 -0500
+categories: 
+  - Android
+date:  2017-09-18T20:35:00-0500
 ---
 
 I've had a Google Nexus 5x phone for almost two years. I pre-ordered it as soon

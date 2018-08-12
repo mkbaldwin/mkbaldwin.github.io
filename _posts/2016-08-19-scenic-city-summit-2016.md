@@ -1,6 +1,8 @@
 ---
 title: Scenic City Summit 2016
-categories: Conference
+categories: 
+  - Conference
+  - Scenic City Summit
 ---
 
 I've found myself doing a bit of the local conference circuit lately. I recently
@@ -35,8 +37,10 @@ software projects today are large, complex, and usually involve a variety of dif
 technologies. One person can't know everything, but as a team you can have all the knowledge 
 needed to be successful.
 
-I don't want rockstars on my team. I want my team to be rocking it. - Jessica Kerr
-{: .notice--info} 
+{% include quote 
+   text="I don't want rockstars on my team. I want my team to be rocking it."
+   author="Jessica Kerr"
+%}
 
 You can get the slides for her presentation [here](https://t.co/QXbfbBzB6Y).
 

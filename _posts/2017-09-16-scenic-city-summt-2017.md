@@ -1,7 +1,9 @@
 ---
 title: "Scenic City Summit 2017"
-date:  2017-09-16 20:26:00 -0500
-categories: Conference
+date:  2017-09-16T20:26:00-0500
+categories: 
+  - Conference
+  - Scenic City Summit
 ---
 
 At the end of June I attended the second annual [Scenic City Summit](https://www.sceniccitysummit.com/)
@@ -17,8 +19,10 @@ simplifying the setup of JavaScript projects. Development is also moving
 toward component oriented architectures with frameworks like ReactJS and 
 the new web components standard.
 
-The future is here, its just not evenly distributed. - Cory House
-{: .notice--info} 
+{% include quote 
+   text="The future is here, its just not evenly distributed."
+   author="Cory House"
+%}
 
 [Emily Estes](https://github.com/emily-e/basements-and-beasties) 
 talked about reimplementing a 1980s text adventure game in a
@@ -58,8 +62,10 @@ and was a guide for the reluctant leader. David's talks are always both entertai
 and informative. This time he had plenty of stories about his journey to being a leader
 and gave lots of advice for time managers from the perspective of an introvert.
 
-Life is too short to let things stay the way they are. - David Neal
-{: .notice--info} 
+{% include quote 
+   text="Life is too short to let things stay the way they are."
+   author="David Neal"
+%}
 
 The conference has definitely grown a lot from its first year and was a lot of fun. 
 I look forward to seeing how things continue to grow in the future.

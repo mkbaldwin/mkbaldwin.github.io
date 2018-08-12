@@ -1,6 +1,8 @@
 ---
 title: CodeStock 2016
-categories: Conference 
+categories: 
+  - Conference
+  - CodeStock 
 ---
 
 Last weekend I attended the 2016 CodeStock conference in Knoxville, TN. This was

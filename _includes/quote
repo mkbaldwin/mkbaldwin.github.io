@@ -1,0 +1,11 @@
+{% capture text %}{{ include.text }}{% endcapture %}
+{% capture author %}{{ include.author }}{% endcapture %}
+
+<p class="quote-block">
+  {{text}}
+  {% if author %}
+    <span class="quote-block-author">
+      - {{author}}
+    </span>
+  {% endif %}
+</p>
