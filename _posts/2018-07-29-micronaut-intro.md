@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Micronaut: A five-minute introduction."
+title: "Micronaut: A five-minute introduction"
 categories:
   - Java
   - Micronaut

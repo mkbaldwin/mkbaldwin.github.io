@@ -4,6 +4,9 @@ categories:
   - Web-Development
 ---
 
+<p class="alert-warning">
+  <b>Note:</b> Due to changes in the services provided by Google this method may no longer work as described.
+</p>
 
 If you are like me and use a static site generator for your website/blog
 you gain a lot of nice benefits in terms of simpler hosting, security, and performance. However, 

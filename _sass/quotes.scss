@@ -1,4 +1,4 @@
-p.quote-block {
+/*p.quote-block {
   margin: 2em 0 !important;
   padding: 1em;
   color: #494e52;
@@ -6,6 +6,26 @@ p.quote-block {
   background-color: #cadaea;
   border-radius: 4px;
   font-weight: bold;
+
+  span.quote-block-author {
+    padding-top: 10px;
+    padding-left: 20px;
+    font-style: italic;
+    font-weight: normal;
+    display: block;
+  }
+}*/
+
+p.quote-block {
+  position: relative;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid #b8daff;
+  border-radius: .25rem;
+  color: #004085;
+  background-color: #cce5ff;
+  font-size: .75em !important;
+
 
   span.quote-block-author {
     padding-top: 10px;
