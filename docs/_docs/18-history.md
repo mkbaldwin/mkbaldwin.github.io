@@ -4,7 +4,7 @@ permalink: /docs/history/
 excerpt: "Change log of enhancements and bug fixes made to the theme."
 sidebar:
   nav: docs
-last_modified_at: 2018-07-24T10:44:32-04:00
+last_modified_at: 2018-08-10T08:59:14-04:00
 toc: true
 ---
 
@@ -12,12 +12,25 @@ toc: true
 
 ### Enhancements
 
+* Add `.emoji` class to author sidebar to normalize image sizes. [#1780](https://github.com/mmistakes/minimal-mistakes/pull/1780)
+* Update Staticman commit message to include commentor's name.
+* Improve side navigation spacing in relation to masthead.
+* Style archive links with appropriate link color.
+* Adjust feature row spacing and font-sizes.
+* Use sentence case and increase font-sizes for improved readability in table of contents.
+* Add `{{ content }}` to `home` layout. [#1775](https://github.com/mmistakes/minimal-mistakes/pull/1775)
+
+## [4.12.1](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.12.1)
+
+### Enhancements
+
+* Add missing French localized UI text strings. [#1769](https://github.com/mmistakes/minimal-mistakes/pull/1769) [#1741](https://github.com/mmistakes/minimal-mistakes/pull/1741)
 * Update Font Awesome to version [`5.2.0`](https://github.com/FortAwesome/Font-Awesome/blob/master/CHANGELOG.md). [#1754](https://github.com/mmistakes/minimal-mistakes/pull/1754)
 * Add documentation note to update root `Gemfile` when forking theme.
-* Add missing French translations. [#1741](https://github.com/mmistakes/minimal-mistakes/pull/1741)
 
 ### Bug Fixes
 
+* Remove slash at the beginning of `path` in staticman.yml example. [#1772](https://github.com/mmistakes/minimal-mistakes/pull/1772)
 * Fix `read_time` logic in header image overlay. [#1756](https://github.com/mmistakes/minimal-mistakes/pull/1756)
 
 ## [4.12.0](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.12.0)
