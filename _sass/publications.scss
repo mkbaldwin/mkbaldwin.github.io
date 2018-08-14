@@ -3,24 +3,6 @@
 
   .publication-detail {
     font-size: 15px;
-  }
-
-  .publication-type {
-    @extend .publication-detail;
-  }
-
-  .publication-authors {
-    @extend .publication-detail;
-
-  }
-
-  .publication-pubname {
-    @extend .publication-detail;
-
-  }
-
-  .publication-date {
-    @extend .publication-detail;
-
+    margin-left: 20px;
   }
 }

@@ -1,0 +1,11 @@
+- type: Paper
+  label: Paper
+  badge: blue
+
+- type: Poster
+  label: Poster
+  badge: gray
+
+- type: Presentation
+  label: Presentation
+  badge: green

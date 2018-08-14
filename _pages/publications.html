@@ -14,9 +14,17 @@ permalink: /publications/
         {{pub.title}}
       {% endif %}
     </div>
-    <div class="publication-type">{{pub.type}}</div>
-    <div class="publication-authors">{{pub.authors}}</div>
-    <div class="publication-pubname">{{pub.publication}}</div>
-    <div class="publication-date">{{pub.date}}</div>
+
+    <div class="publication-detail">
+      {% for type in site.data.publicationTypes %}
+        {% if type.type == pub.type %}
+          <span class="badge badge-{{type.badge}}">{{type.label}}</span>
+        {% endif %}
+      {% endfor %}
+
+      <div>{{pub.authors}}</div>
+      <div>{{pub.publication}}</div>
+      <div>{{pub.date}}</div>
+    </div>
   </div>
 {% endfor %}

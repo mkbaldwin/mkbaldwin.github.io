@@ -1,0 +1,61 @@
+$badge-font-size: 15px !default;
+$badge-font-weight: 600 !default;
+$badge-padding-y: .25em !default;
+$badge-padding-x: .4em !default;
+$badge-border-radius: .25rem !default;
+
+.badge {
+  display: inline-block;
+  padding: $badge-padding-y $badge-padding-x;
+  font-size: $badge-font-size;
+  font-weight: $badge-font-weight;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: $badge-border-radius;
+
+  // Empty badges collapse automatically
+  &:empty {
+    display: none;
+  }
+}
+
+// Color contrast
+@function color-yiq($color) {
+  $r: red($color);
+  $g: green($color);
+  $b: blue($color);
+
+  $yiq: (($r * 299) + ($g * 587) + ($b * 114)) / 1000;
+
+  @if ($yiq >= $yiq-contrasted-threshold) {
+    @return #212529;
+  } @else {
+    @return #ffffff;
+  }
+}
+
+@mixin badge-variant($bg) {
+  color: color-yiq($bg);
+  background-color: $bg;
+}
+
+$badge-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$badge-colors: map-merge(
+    (
+      "blue": #15bcfb,
+      "orange": #eca800,
+      "red": #ec2900,
+      "green": #00ab40,
+      "gray": #6c757d
+    ),
+    $badge-colors
+);
+
+@each $color, $value in $badge-colors {
+  .badge-#{$color} {
+    @include badge-variant($value);
+  }
+}
