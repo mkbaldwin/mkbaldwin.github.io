@@ -4,5 +4,16 @@
   .publication-detail {
     font-size: 15px;
     margin-left: 20px;
+
+    .publication-links {
+      a {
+        margin-right: 15px;
+        text-decoration: none;
+
+        .link-text {
+          text-decoration: underline;
+        }
+      }
+    }
   }
 }

@@ -8,11 +8,7 @@ permalink: /publications/
 {% for pub in site.data.publications %}
   <div class="publication">
     <div class="publication-title">
-      {% if pub.url %}
-        <a href="{{pub.url}}" target="_blank">{{pub.title}}</a>
-      {% else %}
-        {{pub.title}}
-      {% endif %}
+      {{pub.title}}
     </div>
 
     <div class="publication-detail">
@@ -25,6 +21,23 @@ permalink: /publications/
       <div>{{pub.authors}}</div>
       <div>{{pub.publication}}</div>
       <div>{{pub.date}}</div>
+
+      <div class="publication-links">
+        {% for link in pub.links %}
+          {% assign baseUrl = "" %}
+          {% if link.type == 'rel' %}
+            {% assign baseUrl = site.url %}
+          {% endif %}
+
+          <a href="{{baseUrl}}{{link.url}}" target="_blank">
+            {% if link.icon %}
+              <i class="{{link.icon}} fa-fw" aria-hidden="true"></i>
+            {% endif %}
+
+            <span class="link-text">{{link.title}}</span>
+          </a>
+        {% endfor %}
+      </div>
     </div>
   </div>
 {% endfor %}

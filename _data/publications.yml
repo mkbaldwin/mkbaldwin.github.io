@@ -2,30 +2,63 @@
   type: Paper
   publication: 2009 ACM Southeast Conference
   date: March 2009
-  url: http://portal.acm.org/citation.cfm?doid=1566445.1566557
   authors: Michael K. Baldwin
+  links:
+    - title: ACM Digital Library
+      icon: fas fa-book
+      url: http://portal.acm.org/citation.cfm?doid=1566445.1566557
+    - title: Presentation
+      url: /files/publications/2009-ACMSE-Presentation.pdf
+      icon: fas fa-desktop
+      type: rel
 
 - title: Annotating Digital Documents for Improved Search Results in a Document Repository
   type: Poster
   publication: 2008 Student Research Day, Tennessee Technological University
   date: April 2008
   authors: Michael K. Baldwin
+  links:
+    - title: Poster
+      url: /files/publications/2008-ResDay-Poster.pdf
+      icon: fas fa-table
+      type: rel
 
 - title: Utilizing Smart Cards for Authentication and Compliance Tracking in a Diabetes Case Management System
   type: Poster
   publication: 2008 ACM Southeast Conference
   date: March 2008
-  url: http://doi.acm.org/10.1145/1593105.1593246
   authors: Michael K. Baldwin, Brandon M. Malone
+  links:
+    - title: ACM Digital Library
+      icon: fas fa-book
+      url: http://doi.acm.org/10.1145/1593105.1593246
+    - title: Poster
+      url: /files/publications/2008-ACMSE-Poster.pdf
+      icon: fas fa-table
+      type: rel
 
 - title: A Checklist for Requirement Defects Discovery in an Academic Environment
   type: Presentation
   publication: 2007 Fall Conference Mid-Southeast Chapter of the ACM
   date: November 2007
   authors: Michael K. Baldwin
+  links:
+    - title: Abstract
+      url: /files/publications/2007-ACMMSE-Abstract.pdf
+      icon: fas fa-file-alt
+      type: rel
+    - title: Presentation
+      url: /files/publications/2007-ACMMSE-Presentation.pdf
+      icon: fas fa-desktop
+      type: rel
 
 - title: Requirement Defects Discovery and Analysis in an Academic Environment
   type: Poster
   publication: 2007 Student Research Day, Tennessee Technological University
   date: April 2007
   authors: Michael K. Baldwin
+  links:
+    - title: Poster
+      url: /files/publications/2007-ResDay-Poster.pdf
+      icon: fas fa-table
+      type: rel
