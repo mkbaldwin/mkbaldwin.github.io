@@ -11,4 +11,19 @@
   {% include /analytics-providers/custom.html %}
 {% endcase %}
 
+
+<script type="text/javascript">
+  function sendEvent(category, action, label) {
+    ga('send', 'event',category, action, label);
+  }
+</script>
+
+{% else if %}
+
+<script type="text/javascript">
+  function sendEvent(category, action, label) {
+    console.log("GA EVENT: " + category + " // " + action + " // " + label);
+  }
+</script>
+
 {% endif %}
