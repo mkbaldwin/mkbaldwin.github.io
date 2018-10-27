@@ -13,15 +13,18 @@
 
 
 <script type="text/javascript">
-  function sendEvent(category, action, label) {
-    ga('send', 'event',category, action, label);
+  function sendEvent(action, category, label) {
+    gtag('event', action, {
+      'event_category': category,
+      'event_label': label
+    });
   }
 </script>
 
 {% else if %}
 
 <script type="text/javascript">
-  function sendEvent(category, action, label) {
+  function sendEvent(action, category, label) {
     console.log("GA EVENT: " + category + " // " + action + " // " + label);
   }
 </script>

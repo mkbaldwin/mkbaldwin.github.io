@@ -29,7 +29,7 @@ permalink: /publications/
             {% assign baseUrl = site.url %}
           {% endif %}
 
-          <a href="{{baseUrl}}{{link.url}}" target="_blank" onclick="sendEvent('Link', 'Click', 'Publications: {{link.title}} - {{pub.title}}')">
+          <a href="{{baseUrl}}{{link.url}}" target="_blank" onclick="sendEvent('Link Click', 'Publications', '{{link.title}} - {{pub.title}}')">
             {% if link.icon %}
               <i class="{{link.icon}} fa-fw" aria-hidden="true"></i>
             {% endif %}
