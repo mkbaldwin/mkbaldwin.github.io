@@ -5,3 +5,11 @@
     </a>
   </li>
 -->
+
+{% if author.dev_to %}
+<li>
+  <a href="https://dev.to/{{ author.dev_to }}" itemprop="sameAs">
+    <i class="fab fa-fw fa-dev" aria-hidden="true"></i> DEV.to
+  </a>
+</li>
+{% endif %}
