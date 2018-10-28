@@ -6,7 +6,7 @@
   links:
     - title: ACM Digital Library
       icon: fas fa-book
-      url: http://portal.acm.org/citation.cfm?doid=1566445.1566557
+      url: https://dl.acm.org/authorize?60852
     - title: Presentation
       url: /files/publications/2009-ACMSE-Presentation.pdf
       icon: fas fa-desktop
@@ -31,7 +31,7 @@
   links:
     - title: ACM Digital Library
       icon: fas fa-book
-      url: http://doi.acm.org/10.1145/1593105.1593246
+      url: https://dl.acm.org/authorize?60853
     - title: Poster
       url: /files/publications/2008-ACMSE-Poster.pdf
       icon: fas fa-table
