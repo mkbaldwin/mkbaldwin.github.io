@@ -118,3 +118,5 @@ message()                 // Prints "Hello World!"
 ## What next?
 
 In <a href="{{ site.url }}/posts/kotlin-part2-conditionals-loops">part two</a> of this series, we will talk about Kotlin conditionals and looping.
+
+<small>This article is also published on <a href="https://dev.to/mkbaldwin/introduction-to-kotlin-part-1-variables-types-and-functions-193k">dev.to</a>.</small>

@@ -130,3 +130,5 @@ while(booleanExpression)
 ## What next?
 
 In part three of this series, we will talk about Kotlin classes.
+
+<small>This article is also published on <a href="https://dev.to/mkbaldwin/introduction-to-kotlin-part-2-if-when-and-looping-4h56">dev.to</a>.</small>
