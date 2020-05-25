@@ -59,7 +59,7 @@ println(result)
 
 When multiple conditional branches are required the `when` expression results in a much more concise code. The `when` expression requires that all possible branches must be covered. So, in this case, we must have an `else` branch. When using enumerations an else can be omitted when all values are covered by an existing branch. 
 
-If all of the conditional branches are going to be comparisons with a single value we can pass that as an argument to the `when` expression.
+If all conditional branches are going to be comparisons with a single value we can pass that as an argument to the `when` expression.
 
 ```kotlin
 val count = 5
