@@ -241,3 +241,5 @@ In this post I have tried to cover most of the important details of classes, pro
 classes. There are still a lot more specific details that I simply don't have the time and space to cover. Fortunately 
 the <a href="https://kotlinlang.org/docs/reference/">Kotlin reference</a> documentation is excellent and covers all the 
 topics in great detail.
+
+<small>This article is also published on <a href="https://dev.to/mkbaldwin/introduction-to-kotlin-part-3-classes-properties-objects-and-interfaces-2bjf">dev.to</a>.</small>
