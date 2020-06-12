@@ -129,7 +129,7 @@ while(booleanExpression)
 
 ## What next?
 
-In part three of this series, we will talk about Kotlin classes.
+In <a href="{{ site.url }}/posts/kotlin-part3-classes">part three</a> of this series, we will talk about Kotlin classes.
 Also, the <a href="https://kotlinlang.org/docs/reference">Kotlin Reference</a> documentation covers all of these items
 discussed in this post in much more detail.
 
