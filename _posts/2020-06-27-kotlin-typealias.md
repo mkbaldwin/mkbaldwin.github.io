@@ -52,3 +52,7 @@ Obviously, overusing this feature could result in less readable code, but used a
 can be very useful. For more details see the 
 <a href="https://kotlinlang.org/docs/reference/type-aliases.html">Type Aliases</a> section 
 of the Kotlin documentation.
+
+
+<small>This article is also published on <a href="https://dev.to/mkbaldwin/kotlin-type-aliases-4g0f">dev.to</a>.</small>
+
