@@ -7,32 +7,31 @@ categories:
 date:  2020-07-19T16:02:01-0400
 ---
 
-Recently GitHub updated the user profile page to allow custom user-defined content to be displayed. This is done via
+Recently GitHub updated the user profile page to allow custom user-defined content to be displayed. This is done via 
 a profile README.
 
 ![GitHub Profile]({{ site.url }}{{ site.baseurl }}/images/blog/2020/07/19/0_github_profile.png){: .align-center}
 
-Adding your profile readme section is quite simple. To start, create a new repository with your GitHub username
-`YourGithubUsername/YourGithubUsername` and initialize it with a `README.md` file. Note that the repository must be
-public. When you create the repository GitHub will display a message telling you that it is a 'special' repository.
+Adding your profile readme section is quite simple. To start, create a new repository with your GitHub username 
+`YourGithubUsername/YourGithubUsername` and initialize it with a `README.md` file. Note that the repository must be 
+public. When you create the repository GitHub will display a message telling you that it is a 'special' repository.  
 
 ![Creating a repository]({{ site.url }}{{ site.baseurl }}/images/blog/2020/07/19/1_repo_create.png){: .align-center}
 
-Any static content you define and commit into the README in this repository will be displayed on your profile. 
+Any static content you define and commit into the README in this repository will be displayed on your profile.  
 
 ### Displaying blog post links
 
-The GitHub profile readme section only supports static content, but it would be nice to display more dynamic information
-on a profile. In my case, I wanted to be able to put links to my latest blog posts. To achieve this I am going to use
-GitHub Actions.
+The GitHub profile readme section only supports static content, but it would be nice to display more dynamic information 
+on a profile. In my case, I wanted to be able to put links to my latest blog posts. To achieve this I am going to use 
+GitHub Actions. 
 
-My blog (built with Jekyll) has an Atom feed listing all of my posts. To update the content in my readme I will create
-an action to fetch the feed and parse out the five latest posts. Since Atom is XML I used a simple XSLT to transform
-the XML into Markdown. Create the XSLT file below and commit to your profile readme repository as 
-`scripts/recent-posts.xslt`. 
+My blog (built with Jekyll) has an Atom feed listing all of my posts. To update the content in my readme I will create 
+an action to fetch the feed and parse out the five latest posts. Since Atom is XML I used a simple XSLT to transform 
+the XML into Markdown. Create the XSLT file below and commit to your profile readme repository as  
+`scripts/recent-posts.xslt`.  
 
-_Note: If your blog does not use an Atom feed you will need to update this XSLT for the
-file format you have available._
+_Note: If your blog does not use an Atom feed you will need to update this XSLT for the file format you have available._
 
 ```xml
 <?xml version="1.0"?>
@@ -57,13 +56,13 @@ file format you have available._
 </xsl:stylesheet>
 ``` 
 
-To create static content in the readme as well we will create a static markdown file named `README_START.md`. In this
-file you can put any content you want to be shown before the latest posts list. 
+To create static content in the readme as well we will create a static markdown file named `README_START.md`. In this 
+file you can put any content you want to be shown before the latest posts list.  
 
-Commit these files and push them to GitHub. Now we have the initial content we will create a GitHub action to 
-update our readme automatically. Under your profile repository click on the `Actions` tab and then `New workflow`. 
-Select a simple workflow as a starter. GitHub will now give you a starter script, that you can either edit or replace
-using the script below as a basis. Also, note that you will want to rename the script from the default `blank.yml`.
+Commit these files and push them to GitHub. Now we have the initial content we will create a GitHub action to  
+update our readme automatically. Under your profile repository click on the `Actions` tab and then `New workflow`.  
+Select a simple workflow as a starter. GitHub will now give you a starter script, that you can either edit or replace 
+using the script below as a basis. Also, note that you will want to rename the script from the default `blank.yml`. 
 
 ```yaml
 # This is a basic workflow to help you get started with Actions
@@ -118,16 +117,19 @@ jobs:
 
 The script above does the following:
 
-  * Schedules the action to run once a day (or it can be run manually from within GitHub.
-  * Ensures the latest content from the GitHub profile repository is checked out.
+  * Schedules the action to run once a day (or it can be run manually from within GitHub. 
+  * Ensures the latest content from the GitHub profile repository is checked out. 
   * Downloads both SaxonHE (our XSLT processor). The `ubuntu-latest` image includes Java that can easily be used to 
-    run XSLTs.
-  * Downloads the latest Atom feed from my website.
-  * Runs a transformation that generates a `README_END.md` file.
-  * Combines the readme start and end files into a single `README.md` file that GitHub will display.
-  * Ensures our changes are committed.
+    run XSLTs. 
+  * Downloads the latest Atom feed from my website. 
+  * Runs a transformation that generates a `README_END.md` file. 
+  * Combines the readme start and end files into a single `README.md` file that GitHub will display. 
+  * Ensures our changes are committed. 
   
 _Before committing the script make sure to update to for your site._
 
-Now, you can run the action and see that it successfully generates the `README.md` file and commits it into the
+Now, you can run the action and see that it successfully generates the `README.md` file and commits it into the 
 repository.
+
+<small>This article is also published on <a href="https://dev.to/mkbaldwin/display-latest-blog-posts-on-github-profile-readme-cba">dev.to</a>.</small>
+
