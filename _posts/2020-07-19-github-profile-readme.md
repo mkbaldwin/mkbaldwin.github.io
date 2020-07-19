@@ -4,7 +4,7 @@ title: "Display latest blog posts on GitHub profile readme"
 categories:
   - GitHub
   - Tutorial
-date:  2020-07-19T14:38:59-0400
+date:  2020-07-19T16:02:01-0400
 ---
 
 Recently GitHub updated the user profile page to allow custom user-defined content to be displayed. This is done via
