@@ -45,3 +45,5 @@ nvm cache clear
 ```
 
 Hopefully, this helps someone else that is also on the bleeding edge of Apple hardware!
+
+<small>This article is also published on <a href="https://dev.to/mkbaldwin/installing-nodejs-on-macos-apple-silicon-m1-22a4">dev.to</a>.</small>
