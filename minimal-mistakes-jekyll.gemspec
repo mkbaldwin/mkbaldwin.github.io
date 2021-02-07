@@ -21,9 +21,10 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-gist", "~> 1.5"
   spec.add_runtime_dependency "jekyll-feed", "~> 0.10"
   spec.add_runtime_dependency "jekyll-data", "~> 1.0"
-  spec.add_runtime_dependency "jemoji", "~> 0.10"
-  spec.add_runtime_dependency "bigdecimal", "1.3.5"
+  spec.add_runtime_dependency "jemoji", "~> 0.12.0"
+#  spec.add_runtime_dependency "bigdecimal", "1.3.5"
+  spec.add_runtime_dependency "nokogiri", "1.11.1"
 
-  spec.add_development_dependency "bundler", "~> 1.15"
+  spec.add_development_dependency "bundler", "~> 2.2.8"
   spec.add_development_dependency "rake", "~> 10.0"
 end
