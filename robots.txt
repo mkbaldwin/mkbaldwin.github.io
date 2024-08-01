@@ -1,0 +1,7 @@
+---
+layout: none
+---
+User-agent: *
+Sitemap: https://michael.codes/sitemap.xml
+
+CUSTOM-TEST
